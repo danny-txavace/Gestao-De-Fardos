@@ -1,0 +1,30 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\Ramadan ismaeL\Desktop\Blue Moon.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Ramadan ismaeL\Desktop\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Ramadan ismaeL\AppData\Local\Microsoft\WindowsApps;C:\Users\Ramadan ismaeL\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Program Files\Java\jdk-21\bin
+JRE paths:	;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Ramadan ismaeL\AppData\Local\Microsoft\WindowsApps;C:\Users\Ramadan ismaeL\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Program Files\Java\jdk-21\bin
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\MySQL\MySQL Shell 8.0\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Ramadan ismaeL\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\Ramadan ismaeL\AppData\Local\Programs\Microsoft VS Code Insiders\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-21\bin\javaw.exe (OK)
+Version string: 1.021.000_002 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-21\bin\javaw.exe
+Launcher args:	-jar "C:\Users\Ramadan ismaeL\Desktop\Blue Moon.exe"
+Args length:	52/32768 chars
+Exit code:	0
