@@ -1,0 +1,54 @@
+# UPDATE BLUE MOON TRADING COMPANY, SOFTWARE (Developed by Ramadan Ibraimo Ismael)
+new version 2.21
+
+
+
+
+--> Atualizar o banco de dados não relacional para o banco de dados relacional.
+
+
+
+>> TELA PRINCIPAL :
+
+BOTÕES :
+
+1. PRODUTOS - implementar o JOIN para todas as lojas e armazéns.
+		(ID, DESIGNAÇÃO, MARCA, CATEGORIA, UNIDADE, PRECO_ARTIGO(MZN), PRECO_ARTIGO(USD), QUANT.LOJA1, QUANT.LOJA2, QUANT.LOJA3, QUANT.LOJAJARDIM, QUANT.ARMZM-BR, QUANT.ARMZM-MP, 		PRECO_TOTAL)
+
+		*Criar uma tabela extra que armazena todos os dados de produtos, temos, tbproduto(ID, DESIGNAÇÃO, MARCA, CATEGORIA, UNIDADE, PREÇO_ARTIGO(MZN), DATA_HORA...
+
+	EXEMPLO :
+		select 
+		tbproduto.ID, tbproduto.DESIGNAÇÃO, tbproduto.MARCA, tbproduto.CATEGORIA, tbproduto.UNIDADE, tbproduto.PRECO_ARTIGO_MZN, 
+		tbproduto.PRECO_ARTIGO_USD, tbloja_1.QUANTIDADE as QUANT_LOJA1, tbloja_2.QUANTIDADE as QUANT_LOJA2, tbloja_3.QUANTIDADE as QUANT_LOJA3, 
+		tbloja_jardim.QUANTIDADE as QUANT_LOJAJARDIM, tbarmazem_beira.QUANTIDADE as QUANT_ARMZM_BEIRA, tbarmazem_maputo.QUANTIDADE as QUANT_ARMZM_MAPUTO 
+		from tbproduto 
+		inner join tbloja_1 on tbproduto.ID = tbloja_1.ID 
+		inner join tbloja_2 on tbproduto.ID = tbloja_2.ID
+		inner join tbloja_3 on tbproduto.ID = tbloja_3.ID
+		inner join tbloja_jardim on tbproduto.ID = tbloja_jardim.ID
+		inner join tbarmazem_beira on tbproduto.ID = tbarmazem_beira.ID
+		inner join tbarmazem_maputo on tbproduto.ID = tbarmazem_maputo.ID
+		;
+
+interior do btnProduto (Adicionar, Editar, Apagar, Transferir)
+o resto mantém...
+
+2. VENDAS -- mantém
+3. CLIENTES -- mantém
+4. USUÁRIOS -- mantém
+==============================================================================================================
+
+>> MENU :
+
+1. Armazéns (Beira & Maputo); ---> Botões[Editar(Quantidade), Transferir]
+2. Lojas (Loja_1, Loja_2, Loja_3 & Loja_Jardim); ---> Botões[Editar(Quantidade), Transferir]
+3. Relatório; - mantém
+4. Opções (.........); - mantém
+5. Sobre (........). - mantém
+
+==============================================================================================================
+
+>> TELA ADICIONAR PRODUTOS & VENDAS :
+
+No txtcategoria e txtmarca migrar o JComboBox para texto de pesquisa tipo google.
